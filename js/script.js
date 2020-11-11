@@ -1,5 +1,5 @@
 {
-function playGame(playerInput){
+const playGame=function(playerInput){
     clearMessages();
     const getMoveName=function(argMoveId,id){
         if(argMoveId == 1){
